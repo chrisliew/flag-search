@@ -5,8 +5,9 @@
 Flag Search is a simple app built in React that searches for the flag of a country by it's name.  It pulls from the countryAPI to get the flag and country data.    
 
 ## Screenshots
-!["Main page"](https://github.com/chrisliew/flag-search/blob/master/1.png)
-!["Map List"](https://github.com/chrisliew/flag-search/blob/master/2.png)
+<img src="https://github.com/chrisliew/flag-search/blob/master/docs/1.png" height="400px" width="1200px">
+<img src="https://github.com/chrisliew/flag-search/blob/master/docs/2.png" height="400px" width="400px">
+
 
 ## API
 
