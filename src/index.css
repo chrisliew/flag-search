@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: #304352;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flag {
+  height: 15em;
+  width: 25em;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1em;
+}
+
+.country {
+  padding-top: 2em;
+}
+
+.country-name {
+  font-size: 1.5em;
+  color: white;
+}
+
+.navbar {
+  height: 3em;
+  background-color: #4ABDAC;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar h1 {
+  align-self: center;
+  font-size: 2em;
+}
+
+.App {
+  background: #304352;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App-title {
+  margin: 0;
+  color: black;
+  /* text-align: center; */
+}
+
+.searchbar {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 1em;
+}
+
+.searchbar input {
+  border-radius: 10px;
+  font-size: 1em;
+  text-align: center;
+  height: 1.5em;
+  width: 13em;
+}
